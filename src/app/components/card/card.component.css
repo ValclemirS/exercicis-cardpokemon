@@ -1,0 +1,37 @@
+.card{
+    border: solid #000000 1px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #383737;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.card__title>h3{
+    color: white ;
+    display: flex;
+    justify-content: center;
+}
+.card__body{
+    background-color: #616161;
+    width: 80%;
+    height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px ;
+}
+.card__status{
+    padding-top: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.card__status_type{
+    color: azure;
+    background-color: rgb(255, 106, 0);
+    margin-right: 10px;
+    padding: 4px;
+    border-radius: 4px;   
+    color: #000000; 
+}
